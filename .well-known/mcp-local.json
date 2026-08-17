@@ -1,0 +1,31 @@
+{
+  "schema_version": "2025-06",
+  "publisher": {
+    "name": "CSOAI Hive",
+    "legal_entity": "MEOK AI LTD",
+    "url": "https://csoai.org"
+  },
+  "site": {
+    "name": "BiasDetectionOf",
+    "domain": "biasdetectionof.ai",
+    "sector": "compliance"
+  },
+  "registry": "https://csoai.org/.well-known/mcp.json",
+  "published_mcp_servers_total": 271,
+  "servers": [
+    {
+      "name": "bias-detection-mcp",
+      "tool": "bias-detection-mcp.scan",
+      "description": "Run a fairness scan on a model or dataset and return quantified bias metrics from any agent.",
+      "endpoint": "https://biasdetectionof.ai/mcp/bias-detection-mcp",
+      "tier": "vertical"
+    },
+    {
+      "name": "eu-ai-act-compliance-mcp",
+      "tool": "eu-ai-act-compliance-mcp.assess",
+      "description": "Map bias findings to EU AI Act high-risk obligations and evidence requirements.",
+      "endpoint": "https://biasdetectionof.ai/mcp/eu-ai-act-compliance-mcp",
+      "tier": "vertical"
+    }
+  ]
+}
